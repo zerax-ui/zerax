@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zerax - Your Education Partner</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <nav>
+
+<header class="header">
+
+  <!-- LEFT: LOGO -->
+  <div class="left">
+    <img src="images/zerax-logo.png" alt="Zerax Logo">
+  </div>
+
+  <!-- CENTER: TITLE + SUBTITLE -->
+  <div class="center">
+    <div class="title">ZERAX</div>
+    <div class="subtitle">Your Career & Exam Guide Platform</div>
+  </div>
+
+         <ul>  
+            <li><a href="#">Home</a></li>
+            <li><a href="jee-main.html">jee mains</a></li>
+            <li><a href="jee-advanced.html">jee advanced</a></li>
+            <li><a href="colleges.html">colleges</a></li>
+            <li><a href="articles.html">articles</a></li>
+            <li><a href="cutoffs.html">cuoffs</a></li>
+        </ul>
+
+        <button class="login-btn">Login</button>
+    </nav>
+<div class="news-bar">
+    <span>
+        📢 JEE Main Registration Updates | JEE Advanced Results | NEET Counselling Latest News
+    </span>
+</div>
+</header>
+
+<section class="hero">
+    <h1>Your Path to IIT, NIT & Top Colleges Starts Here</h1>
+
+    <p>
+        Explore exams, colleges, cutoffs and expert guidance all in one place.
+    </p>
+
+  <input type="text" id="searchBox" placeholder="Search exams...">
+<button onclick="searchSite()">Search</button>
+ <section class="cards">
+
+  <a href="jee-main.html" class="card">
+    <h2>JEE Mains</h2>
+    <p>Exam info, syllabus, updates</p>
+  </a>
+
+  <a href="jee-advanced.html" class="card">
+    <h2>JEE Advanced</h2>
+    <p>Preparation + eligibility</p>
+  </a>
+
+  <a href="colleges.html" class="card">
+    <h2>Colleges</h2>
+    <p>IITs, NITs, Top Engineering Colleges</p>
+  </a>
+
+  <a href="articles.html" class="card">
+    <h2>Articles</h2>
+    <p>Guides, tips & strategies</p>
+  </a>
+
+</section>
+<!-- FLOATING BUTTON -->
+<div class="chat-btn" onclick="toggleChat()">💬</div>
+
+<!-- CHAT BOX -->
+<div class="chat-box" id="chatBox">
+
+  <div class="chat-header">
+    Zerax AI
+    <span onclick="toggleChat()">✖</span>
+  </div>
+
+  <div class="chat-body" id="chatBody"></div>
+
+  <div class="chat-input">
+    <input type="text" id="chatInput" placeholder="Ask something...">
+    <button onclick="sendMsg()">Send</button>
+  </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
+<section class="popular-exams">
+
+    <h2>Popular Exams</h2>
+
+    <div class="exam-list">
+        <button>JEE Main</button>
+        <button>JEE Advanced</button>
+        <button>NEET</button>
+        <button>BITSAT</button>
+        <button>VITEEE</button>
+        <button>AP EAMCET</button>
+    </div>
+
+</section>
+<section class="stats">
+
+    <div class="stat-box">
+        <h2>500+</h2>
+        <p>Articles</p>
+    </div>
+
+    <div class="stat-box">
+        <h2>100+</h2>
+        <p>Exams Covered</p>
+    </div>
+
+    <div class="stat-box">
+        <h2>1000+</h2>
+        <p>Colleges Listed</p>
+    </div>
+
+</section>
+
+<section class="latest-news">
+
+    <h2>Latest Education News</h2>
+
+    <div class="news-card">
+        <h3>JEE Main 2027 Updates</h3>
+        <p>Latest announcements and registration information.</p>
+    </div>
+
+    <div class="news-card">
+        <h3>JEE Advanced News</h3>
+        <p>Important notices and exam updates.</p>
+    </div>
+
+    <div class="news-card">
+        <h3>Top Engineering Colleges</h3>
+        <p>Explore rankings and admission details.</p>
+    </div>
+
+</section>
+
+<footer>
+    <p>© 2026 Zerax. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
