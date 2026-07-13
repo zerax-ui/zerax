@@ -675,3 +675,208 @@ grid-template-columns:1fr;
 }
 
 }
+/* =========================================
+   LIGHT THEME (WHITE BACKGROUND + BLUE TEXT)
+   ========================================= */
+
+/* Global */
+html,
+body {
+    background: #ffffff !important;
+    color: #000000 !important;
+}
+
+/* Sections */
+section,
+.hero,
+.exam-hero,
+.popular-exams,
+.stats,
+.latest-news,
+.latest-updates,
+.top-colleges,
+.faq-section,
+.clock-container {
+    background: #ffffff !important;
+    color: #000000 !important;
+}
+
+/* Header & Navigation */
+nav,
+.header {
+    background: #ffffff !important;
+    color: #000000 !important;
+    border-bottom: 1px solid #ddd;
+}
+
+.logo,
+.title,
+.subtitle,
+.center,
+.left {
+    color: #000000 !important;
+}
+
+nav a,
+.nav a,
+.nav-links li a,
+.sidebar a {
+    color: #000000 !important;
+}
+
+nav a:hover,
+.nav a:hover,
+.nav-links li a:hover,
+.sidebar a:hover {
+    color: #0077cc !important;
+}
+
+/* Cards */
+.card,
+.info-card,
+.update-card,
+.faq-card,
+.college-card,
+.news-card,
+.stat-box,
+.sidebar,
+.box {
+    background: #ffffff !important;
+    color: #000000 !important;
+    border: 1px solid #dddddd !important;
+}
+
+/* Headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+li,
+label {
+    color: #000000 !important;
+}
+
+/* Blue headings */
+.info-card h2,
+.latest-news h2,
+.latest-updates h2,
+.popular-exams h2,
+.exam-hero h1,
+.stat-box h2 {
+    color: #0077cc !important;
+}
+
+/* Hero */
+.hero input {
+    background: #ffffff;
+    color: #000000;
+    border: 1px solid #ccc;
+}
+
+/* Buttons */
+button,
+.login-btn,
+.exam-list button {
+    background: #0077cc !important;
+    color: #ffffff !important;
+}
+
+.exam-list button:hover,
+.login-btn:hover {
+    background: #005fa3 !important;
+}
+
+/* News Bar */
+.news-bar {
+    background: #0077cc !important;
+    color: #ffffff !important;
+}
+
+/* Chat */
+.chat-btn {
+    background: #0077cc !important;
+    color: #ffffff !important;
+}
+
+.chat-box {
+    background: #ffffff !important;
+    color: #000000 !important;
+    border: 1px solid #ccc;
+}
+
+.chat-header {
+    background: #f5f5f5 !important;
+    color: #000000 !important;
+}
+
+.chat-body {
+    background: #ffffff !important;
+    color: #000000 !important;
+}
+
+.chat-input {
+    border-top: 1px solid #ddd;
+}
+
+.chat-input input {
+    background: #ffffff !important;
+    color: #000000 !important;
+}
+
+.chat-input button {
+    background: #0077cc !important;
+    color: #ffffff !important;
+}
+
+/* Clock */
+.clock-container {
+    background: #ffffff !important;
+}
+
+.box {
+    background: #f8f8f8 !important;
+}
+
+.box span {
+    color: #0077cc !important;
+}
+
+.box p {
+    color: #444444 !important;
+}
+
+/* Footer */
+footer {
+    background: #ffffff !important;
+    color: #000000 !important;
+    border-top: 1px solid #ddd;
+}
+
+.footer-column h2,
+.footer-column h3,
+.footer-column p,
+.footer-column a,
+.footer-bottom {
+    color: #000000 !important;
+}
+
+.footer-column a:hover {
+    color: #0077cc !important;
+}
+
+footer hr {
+    border-color: #dddddd !important;
+}
+
+/* Links */
+a {
+    color: #000000;
+}
+
+a:hover {
+    color: #0077cc;
+}
